@@ -10,14 +10,9 @@
     --black:#000000;
     --line:#A9A9A9;
     --text:#808080;
-  
   }
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
+  
 .tour img{
      margin-right: 747px;
      margin-top: 100px;
@@ -116,12 +111,14 @@ border: 0.5px solid var(--line) ;
 box-sizing: border-box;
 border-radius: 2px;
 
+
 }
 #search-id{
     line-height: 50px;
     background: none;
     border: none;
     padding-left: 17px;
+    outline: none;
 }
 
 #icons{
