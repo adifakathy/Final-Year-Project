@@ -111,6 +111,7 @@ padding-left: 17px;
 background: rgba(235, 235, 235, 0.8);
 border: 0.5px solid var(--line);
 box-sizing: border-box;
+outline: none;
 border-radius: 2px;
 }
 #pass-id{
@@ -139,6 +140,7 @@ font-family: Proxima Nova Regular;
 background: rgba(235, 235, 235, 0.8);
 border: 0.5px solid var(--line);
 box-sizing: border-box;
+outline: none;
 border-radius: 2px;
 
 }
