@@ -1,3 +1,24 @@
+/* Fonts Import */
+@font-face {
+    font-family: "Proxima Nova Regular";
+    src: url("../fonts/ProximaNova-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Proxima Nova SemiBold";
+    src: url("../fonts/ProximaNova-Semibold.ttf");
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Proxima Nova Bold";
+    src: url("../fonts/ProximaNova-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+  }
 
 
 /* color */
@@ -26,6 +47,7 @@
 margin-bottom: 0;
 margin-top: 150px;
 text-align: center;
+font-family: Proxima Nova Bold;
 font-style: normal;
 font-weight: bold;
 font-size: 35px;
@@ -35,12 +57,14 @@ color: var(--primary);
 .tour p{
     text-align: center;
     font-size: 17px;
+    font-family: Proxima Nova Regular;
     line-height: 19px;
 }
 
 h3{
     font-weight: bold;
     font-size: 24px;
+    font-family: Proxima Nova Regular;
     left: 29px;
     margin-bottom: 0;
     text-transform: uppercase;
@@ -48,6 +72,7 @@ h3{
 } 
 .signuptext{
         font-style: normal;
+        font-family: Proxima Nova Bold;
         margin-top: 0;
         font-weight: bold;
         font-size: 30px;
@@ -58,17 +83,20 @@ h3{
 .member{
     margin-bottom: 30px;
     margin-top: 13px;
+    font-family: Proxima Nova Regular;
 }
 .member p{
     color: var(--ternary);
     font-size: 16px;
     font-weight: 600;
+    font-family: Proxima Nova Regular;
     line-height: 19px;
 }
 .input-name p{
     margin-top: 0;
     margin-bottom: 0;
     font-size: 16px;
+    font-family: Proxima Nova Regular;
 line-height: 16px;
 color: var(--black);
 
@@ -78,6 +106,7 @@ color: var(--black);
     height: 56px;
 margin-top: 9px;
 margin-bottom: 20px;
+font-family: Proxima Nova Regular;
 padding-left: 17px;
 background: rgba(235, 235, 235, 0.8);
 border: 0.5px solid var(--line);
@@ -106,6 +135,7 @@ margin-top: 9px;
 margin-bottom: 20px;
 margin-right: 53px;
 padding-left: 17px;
+font-family: Proxima Nova Regular;
 background: rgba(235, 235, 235, 0.8);
 border: 0.5px solid var(--line);
 box-sizing: border-box;
@@ -118,6 +148,7 @@ border-radius: 2px;
 height: 56px;
 margin-top: 9px;
 margin-bottom: 20px;
+font-family: Proxima Nova Regular;
 background: rgba(235, 235, 235, 0.8);
 border: 0.5px solid var(--line) ;
 box-sizing: border-box;
@@ -129,6 +160,7 @@ border-radius: 2px;
     line-height: 50px;
     background: none;
     border: none;
+    font-family: Proxima Nova Regular;
     padding-left: 17px;
     outline: none;
 }
@@ -143,6 +175,7 @@ border-radius: 2px;
     width: 473px;
     height: 56px;
     margin-top: 25px;
+    font-family: Proxima Nova Bold;
     background: var(--seconday);
     border-radius: 2px;
     color: var(--pure);
@@ -157,6 +190,7 @@ border-radius: 2px;
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
+    font-family: Proxima Nova Regular;
     background: var(--pure);
     border: 1px solid var(--line);
     box-sizing: border-box;
