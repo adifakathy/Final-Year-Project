@@ -6,13 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration Form</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/nav.css">
    <script src="https://kit.fontawesome.com/e6287c4adb.js" crossorigin="anonymous"></script>
     
 </head>
 <body>
-<section class="container">
+<header>
+<!--navbar-->
+<div class="nav container">
+        <a
+          onMouseOver="removePopup()"
+          href="#"
+          class="site-logo"
+          aria-label="homepage"
+          ><img src="logo/Black logo.svg" alt="Tourist Guide Logo"
+        /></a>
+        <nav class="main-nav">
+        <fieldset class="search-field">
+            <div class="searchMain">
+              <label for="searchFood">What:</label>
+              <input
+                type="text"
+                name=""
+                id="searchFood"
+                placeholder="Ex: Famous Food, Famous Place, Way Path"
+              />
+            </div>
+            <div class="search-bar-hr">
+              <p>|</p>
+            </div>
+            <div class="search-location">
+              <label for="searchLocation">Where:</label>
+              <input
+                type="text"
+                name=""
+                placeholder="Location"
+                id="searchLocation"
+              />
+            </div>
+            <button class="search-btn"><i class="fas fa-search"></i></button>
+          </fieldset>
+        </nav>
+        <nav class="account" onMouseOver="removePopup()">
+          <ul class="nav__list">
+            <li class="nav__list-item" onMouseOver="removePopup()">
+                <a href="#" class="nav__link">Home</a>
+              </li>
+              <li class="nav__list-item" onMouseOver="removePopup()">
+                <a href="#" class="nav__link">Sign In</a>
+              </li>
+              <div class="dropdown" onMouseOver="handlePopup()">
+                <li class="nav__list-item active">
+                  <a href="#" class="nav__link"
+                    >Register</i
+                  ></a>
+                </li>
+          </ul>
+        </nav>
+      </div>
 
+</header>
+
+<!--Main Body-->
+<section class="container">
      <div class="tour">
        <h1 class="welcome">Welcome to Tourist<span>Guide</span></h1>
          <p>Our goal is to get to the place of your choice very easily and let
@@ -68,16 +124,20 @@
        </div>
          <button class="google" ><i class="fab fa-google"></i>
         Sign up with Google</button>
-        
-       
-
-        </div>
-      
+        </div>  
     </div>
-       
-
 </section>
-    
-</div>
+
+<!--Main part-->
+<main onMouseOver="removePopup()">
+      <section class="home-intro"></section>
+    </main>   
+<!--sticky toggle-->
+  <script type ="text/javascript">
+      window.addEventListener("scroll", function(){
+       var header = document.querySelector("header");
+       header.classList.toggle("sticky", window.scrollY > 0);
+      })
+    </script>
 </body>
 </html>
