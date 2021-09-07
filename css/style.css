@@ -88,6 +88,9 @@ h3{
     margin-top: 13px;
     font-family: Proxima Nova Regular;
 }
+.member a{
+    text-decoration: none;
+}
 .member p{
     color: var(--ternary);
     font-size: 16px;
