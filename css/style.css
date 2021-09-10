@@ -172,10 +172,11 @@ border-radius: 2px;
     padding-left: 17px;
     outline: none;
 }
-
+.search a{
+    margin-left: 280px;
+}
 #icons{
-    margin-right: auto;
-    /* margin-left:250px; */
+    /* margin-left:auto; */
     /* cursor: pointer; */
     color: var(--ternary);
 }
