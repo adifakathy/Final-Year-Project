@@ -174,8 +174,9 @@ border-radius: 2px;
 }
 
 #icons{
-    margin-left:250px;
-    cursor: pointer;
+    margin-right: auto;
+    /* margin-left:250px; */
+    /* cursor: pointer; */
     color: var(--ternary);
 }
 
@@ -186,13 +187,17 @@ border-radius: 2px;
     font-family: Proxima Nova Bold;
     background: var(--seconday);
     border-radius: 2px;
-    color: var(--pure);
     border: none;
     font-size: 16px;
     font-weight: 600;
-    cursor: pointer;
-    }
-    .google{
+    /* cursor: pointer; */
+}
+.account-btn a{
+    text-decoration: none;
+    color: var(--pure);
+
+}
+.google{
     width: 473px;
     height: 56px;
     margin-top: 20px;
@@ -205,9 +210,13 @@ border-radius: 2px;
     font-weight: 500;
 font-size: 16px;
 line-height: 19px;
-    cursor: pointer;
     border-radius: 2px;
-    }
-    .fab{
+}
+.google a{
+     text-decoration: none;
+     color: var(--ternary);
+
+}
+.fab{
         color: var(--seconday);
-    }
+}
