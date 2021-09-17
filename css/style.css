@@ -175,10 +175,13 @@ border-radius: 2px;
 .search a{
     margin-left: 280px;
 }
-#icons{
+#icon{
     /* margin-left:auto; */
     /* cursor: pointer; */
     color: var(--ternary);
+}
+label{
+    font-family:Proxima Nova Regular ;
 }
 
 .account-btn{
